@@ -9,6 +9,7 @@ body {
 .headercontainer {
     width: 960px;
     margin: 0 auto;
+    position: relative;
 }
 
 h1 {
@@ -22,6 +23,7 @@ header {
     width: 100%;
     border-bottom:2px solid #cccccc;
     height: 70px;
+    min-height: 70px;
     z-index: 3;
 }
 
@@ -34,6 +36,8 @@ header {
     font-size: 28px;
     text-align: center;
     margin: 0px;
+    position: absolute;
+    top: 0;
 }
 
 a {
@@ -51,6 +55,10 @@ li {
 nav {
     float: right;
     margin-right: 0px;
+    position: absolute;
+    right: 0;
+    bottom: 5px;
+    top: 0;
 }
 
 nav ul li:not(:last-child):after {
@@ -75,7 +83,7 @@ li a:hover {
     margin-top: 60px;
 }
 
-.contactform {
+.portfoliosection {
     display: block;
     background-color: #ffffff;
     width: 960px;
@@ -83,60 +91,50 @@ li a:hover {
     margin-left: auto;
     position: absolute;
     top: 0;
-    margin-top: 50px;
+    margin-top: 30px;
     right: 0;
     left: 0;
     border: 1px solid #dddddd;
 }
 
-.contact{
+.portfolio {
     color: #4aaaa5;
     font-size: 30px;
     padding-bottom: 20px;
     border-bottom: 3px solid #dddddd;
-}
-
-.contact,
-label,
-input,
-textarea {
-    margin-left: 30px;
     margin-right: 30px;
+    margin-left: 30px;
 }
 
-#name,
-#email,
-#message {
-    clear: both;
-    margin-bottom: 10px;
-    padding-right: 0px;
+a,
+img {
+    width: 250px;
+    height: 150px;
 }
 
-textarea#message {
-    max-height: 270px;
-    min-height: 200px;
-    min-width: 896px;
+.grid-container {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 175px 175px 175px;
+    margin-left: 30px;
 }
 
-label {
-    float: left;
-    width: 100%;
+.grid-item {
+    width: 250px;
+    height: 150px;
+    position: relative;
 }
 
-label,
-input#name,
-input#email,
-textarea#message {
-    width: 896px;
-    max-width: 896px;
-    color: #777777;
-}
-
-#submit {
-    background-color: #4aaaa5;
-    padding: 5px 25px 5px 25px;
+.label {
+    padding: 10px;
     color: white;
-    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #4aaaa5;
+    position: absolute;
+    width: 230px;
+    bottom: 10px;
+    text-align: center;
+
 }
 
 footer {

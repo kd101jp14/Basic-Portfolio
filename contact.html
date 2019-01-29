@@ -5,8 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>About Me</title>
+    <title>Contact Kyra</title>
     <link rel="stylesheet" href="assets/css/style_contact.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="assets/images/favicon_io/site.webmanifest">
 </head>
 
 <body>
@@ -15,16 +19,20 @@
 
         <div class="headercontainer">
 
-            <h1 class="name">
-                Kyra Davis
-            </h1>
+            <a href="index.html">
+
+                <h1 class="name">
+                    Kyra Davis
+                </h1>
+
+            </a>
 
             <nav>
 
                 <ul>
                     <li id="about"><a href="index.html">About </a></li>
-                    <li id="portfolio"><a href="#"> Portfolio </a></li>
-                    <li id="contact"><a href="contact.html"> Contact</a></li>
+                    <li id="portfolio"><a href="portfolio.html">Portfolio</a></li>
+                    <li id="contact"><a href="contact.html">Contact</a></li>
                 </ul>
 
             </nav>
@@ -42,9 +50,9 @@
             <form id="formfields">
 
                 <div id="name">
-                    <label for="contactname">Name</label>
+                    <label for="name">Name</label>
                     <br>
-                    <input type="text" name="contactname" id="contactname">
+                    <input type="text" name="name" id="name">
                 </div>
 
                 <div id="email">
@@ -56,23 +64,29 @@
                 <div id="message">
                     <label for="message">Message</label>
                     <br>
-                    <textarea name="message" id="message" rows="5" cols="50"></textarea>
+                    <textarea name="message" id="message" rows="10" cols="50"></textarea>
                 </div>
 
                 <div id="submitbutton">
                     <!-- Attempted to use Button instead of Div for semantics, but it created a button around the send button. -->
-                    <input type="submit" value=" Submit ">
+                    <input id="submit" type="submit" value=" Submit ">
                 </div>
+
+                <br>
+
+                <br>
 
             </form>
 
         </section>
 
-        <footer></footer>
-
     </div>
 
+    <footer>
 
+        <div class="copyright">Copyright &copy;</div>
+
+    </footer>
 
 </body>
 
