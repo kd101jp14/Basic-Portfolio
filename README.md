@@ -16,15 +16,7 @@ kd101jp14
 
 ## License
 
-* This project is licensed under The MIT License (MIT).
-
-## How-to use this code
-
- * All that is required is a code editor. Contributions can be made by editing and adding to the code in this repository.
-
-## Contributing Guidelines
-
-* Contributions and suggestions are welcome. If making direct contributions fork the repository and file a pull request, please!
+* This project does not have a license and is not currently open for contributions. Suggestions are welcome.
 
 ## Contact
 
