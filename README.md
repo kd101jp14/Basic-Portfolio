@@ -2,7 +2,7 @@
 
 ## Contributors
 
-ksd101jp14
+kd101jp14
 
 ## Technology
 
