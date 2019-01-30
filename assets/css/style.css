@@ -53,6 +53,7 @@ nav {
     margin-right: 0px;
 }
 
+/* Place dividers between nav links */
 nav ul li:not(:last-child):after {
     content: '|';
     position: relative; 

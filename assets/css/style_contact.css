@@ -53,6 +53,7 @@ nav {
     margin-right: 0px;
 }
 
+/* Place dividers between nav links */
 nav ul li:not(:last-child):after {
     content: '|';
     position: relative; 
@@ -112,6 +113,7 @@ textarea {
     padding-right: 0px;
 }
 
+/* Limited width and height for text area for aesthetic purposes */
 textarea#message {
     max-height: 270px;
     min-height: 200px;
