@@ -20,6 +20,6 @@ kd101jp14
 
 ## Contact
 
-* Homepage:  https://kd101jp14.github.io/
+* Homepage:  https://github.com/kd101jp14
 
-* E-mail: 46618187+kd101jp14@users.noreply.github.com
+* E-mail: davis.kyra@rocketmail.com
